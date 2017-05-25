@@ -1,6 +1,15 @@
-# Angular4Bootstrap4Starter
+# Angular 4 Bootstrap 4 Starter Kit
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.2.
+This project is useful to whoever want to work with Angular 4 and Bootstrap 4.
+
+## To reproduce this starter kit
+Run `ng new angular4-bootstrap4-starter --style=scss` for creating a new Angular project with the CLI.
+
+Go in the newly created folder `cd angular4-bootstrap4-starter` and install bootstrap (the last version) with `npm i bootstrap@next --save`
+
+Start your IDE and open the project, then in the file `sytles.scss` add `@import "../node_modules/bootstrap/scss/bootstrap";`
+
+Last step, build and start your project with `ng serve`
 
 ## Development server
 
